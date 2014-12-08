@@ -1,6 +1,5 @@
 import unittest
 import re
-import sys
 from meli import Meli
 import requests
 import json

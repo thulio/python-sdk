@@ -33,7 +33,7 @@ def read(fname):
 
 setup(
     name='meli',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/calazans10/python-sdk.git',
     license='MIT',
     description='Fork from official Python SDK for MercadoLibre\'s Platform',
