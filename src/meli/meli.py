@@ -4,7 +4,6 @@ import os
 import json
 import requests
 from urllib import urlencode
-from ConfigParser import SafeConfigParser
 
 
 class Meli(object):
@@ -14,13 +13,10 @@ class Meli(object):
         self.access_token = access_token
         self.refresh_token = refresh_token
 
-        parser = SafeConfigParser()
-        parser.read(os.path.dirname(os.path.abspath(__file__))+'/config.ini')
-
-        self.API_ROOT_URL = parser.get('config', 'api_root_url')
-        self.SDK_VERSION = parser.get('config', 'sdk_version')
-        self.AUTH_URL = parser.get('config', 'auth_url')
-        self.OAUTH_URL = parser.get('config', 'oauth_url')
+        self.API_ROOT_URL = 'https://api.mercadolibre.com'
+        self.SDK_VERSION = 'MELI-PYTHON-SDK-1.0.0'
+        self.AUTH_URL = 'https://auth.mercadolibre.com/authorization'
+        self.OAUTH_URL = '/oauth/token'
 
     #AUTH METHODS
     def auth_url(self,redirect_URI):
