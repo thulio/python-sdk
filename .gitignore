@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+dist/
+build/
+examples/
+src/meli.egg-info/

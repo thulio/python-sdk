@@ -1,12 +1,11 @@
- #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 import re
 import os
+import json
 import requests
 from urllib import urlencode
 from ConfigParser import SafeConfigParser
-import json
+
 
 class Meli(object):
     def __init__(self, client_id, client_secret, access_token=None, refresh_token=None):
