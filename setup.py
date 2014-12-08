@@ -33,12 +33,12 @@ def read(fname):
 
 setup(
     name='meli',
-    version='0.0.1',
-    # url='https://github.com/lojaintegrada/LI-ApiClient',
+    version='0.0.2',
+    url='https://github.com/calazans10/python-sdk.git',
     license='MIT',
-    # description='Loja Integrada\'s API Client',
-    # author=u'Loja Integrada',
-    # author_email='contato@lojaintegrada.com.br',
+    description='Fork from official Python SDK for MercadoLibre\'s Platform',
+    author=u'Jeferson Calazans',
+    author_email='calazans10@gmail.com',
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
