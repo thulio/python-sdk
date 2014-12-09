@@ -1,6 +1,6 @@
 # MercadoLibre's Python SDK
 
-This is the official Python SDK for MercadoLibre's Platform.
+Fork from [the official Python SDK for MercadoLibre's Platform](https://github.com/mercadolibre/python-sdk).
 
 ## How do I install it?
 
@@ -93,17 +93,3 @@ response = meli.put(path="/items/123", body=body, params=params)
 params = {'access_token' : meli.access_token}
 response = meli.delete(path="/questions/123", params=params)
 ```
-
-## Examples
-
-Don't forget to check out our examples codes in the folder [examples](https://github.com/mercadolibre/python-sdk/tree/master/examples)
-
-## Community
-
-You can contact us if you have questions using the standard communication channels described in the [developer's site](http://developers.mercadolibre.com/community/)
-
-## I want to contribute!
-
-That is great! Just fork the project in github. Create a topic branch, write some code, and add some tests for your new code.
-
-Thanks for helping!
